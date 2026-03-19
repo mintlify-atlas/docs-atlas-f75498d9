@@ -1,0 +1,58 @@
+{
+  "projectType": "general",
+  "projectName": "Color Me",
+  "projectDescription": "Browser extension that lets you customize the browser frame color and explore color theory",
+  "theme": "willow",
+  "primaryColor": "#0665fc",
+  "lightColor": "#7cb4fc",
+  "darkColor": "#04a4ec",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "installation",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/color-picker",
+          "features/theme-switching",
+          "features/saved-colors"
+        ]
+      },
+      {
+        "group": "Browser Support",
+        "pages": [
+          "browsers/chrome",
+          "browsers/firefox",
+          "browsers/edge",
+          "browsers/opera"
+        ]
+      },
+      {
+        "group": "Development",
+        "pages": [
+          "development/setup",
+          "development/building",
+          "development/debugging"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Interactive color wheel picker",
+    "Day/night mode switching",
+    "Save and manage favorite colors",
+    "Multi-browser support (Chrome, Firefox, Edge, Opera)"
+  ],
+  "publicApiSurface": [
+    "Popup component with color wheel interface",
+    "Content script for DOM manipulation",
+    "Background service worker for theme management",
+    "Storage utilities for color and mode persistence"
+  ]
+}
